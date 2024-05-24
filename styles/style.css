@@ -590,7 +590,7 @@ span {
     }
 
     .habilidades {
-        padding-bottom: 5rem;
+        padding-bottom: 7rem;
     }
 
     .projetos .wrapper {
@@ -672,9 +672,12 @@ span {
     }
 
     .habilidades {
-        padding: 100rem 3%;
+        padding: 10rem 3%;
     }
 
+    .habilidades h2.heading {
+        font-size: 5rem; /* Reduz o tamanho do texto "Habilidades" */
+    }
     .habilidades-container {
         flex-direction: column;
         align-items: center;
@@ -685,6 +688,8 @@ span {
         max-width: 600px;
         width: 100%;
     }
-
+.contatos .heading{
+    white-space: nowrap; /* Impede a quebra de linha */
+}
 
 }

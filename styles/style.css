@@ -676,7 +676,7 @@ span {
     }
 
     .habilidades h2.heading {
-        font-size: 5rem; /* Reduz o tamanho do texto "Habilidades" */
+        font-size: 10rem; /* Reduz o tamanho do texto "Habilidades" */
     }
     .habilidades-container {
         flex-direction: column;
@@ -689,7 +689,8 @@ span {
         width: 100%;
     }
 .contatos .heading{
-    white-space: nowrap; /* Impede a quebra de linha */
+    white-space: nowrap;
+    font-size: 5rem;
 }
 
 }

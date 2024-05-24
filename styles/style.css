@@ -1,3 +1,4 @@
+/*Configurações gerais*/
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +8,14 @@
     scroll-behavior: smooth;
     font-family: "Poppins", sans-serif;
 }
-
+/*Variáveis*/
 :root {
     --bg-color: #080808;
     --secund-bg-color: #101010;
     --text-color: white;
     --main-color: #FF008E;
 }
-
+/*Outras configurações gerais(Tamanho do HTML e corpo da página)*/
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -24,7 +25,7 @@ body {
     background: var(--bg-color);
     color: var(--text-color);
 }
-
+/*Cabeçalho*/
 .header {
     position: fixed;
     top: 0;
@@ -54,7 +55,7 @@ body {
 .logo span {
     text-shadow: 0 0 25px var(--main-color);
 }
-
+/*Links de navegação*/
 .navbar a {
     font-size: 1.8rem;
     color: var(--text-color);
@@ -76,7 +77,7 @@ body {
     display: none;
 
 }
-
+/*Seções*/
 section {
     min-height: 100vh;
     padding: 10rem 9% 10rem;
